@@ -1,1 +1,6 @@
-<%= pluralize(@rooms.size, "Room") %>
+<h1><%= pluralize(@rooms.size, "Room") %> at The Maze Music Studios</h1>
+
+	<% @rooms.each do |room| %>
+		<h3>Room #<%= room.id %></h3>
+		<div>Status: <%= room.status.capitalize %></div>
+	<% end %>
