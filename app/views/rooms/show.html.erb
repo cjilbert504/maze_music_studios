@@ -1,0 +1,13 @@
+<h1>Room #<%= @room.id %></h1>
+
+<p>
+	<h3>
+		Occupancy Status: <%= room_occupancy_status(@room) %>
+	</h3>
+</p>
+
+<p>
+	<h3>
+		Availability Status: <%= @room.status.capitalize %>
+	</h3>
+</p>

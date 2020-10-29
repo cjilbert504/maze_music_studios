@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  get "/rooms" => "rooms#index"
+  resources :rooms
 end
