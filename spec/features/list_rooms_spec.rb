@@ -11,5 +11,9 @@ RSpec.describe "Visiting the list of rooms" do
 		expect(page).to have_text("3 Rooms at The Maze Music Studios")
 		expect(page).to have_text("Room #1")
 		expect(page).to have_text("Status: Available")
+		expect(page).to have_text("Room #2")
+		expect(page).to have_text("Status: Available")
+		expect(page).to have_text("Room #3")
+		expect(page).to have_text("Status: Available")
 	end
 end
