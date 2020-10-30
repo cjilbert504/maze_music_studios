@@ -2,9 +2,9 @@ require "rails_helper"
 
 RSpec.describe "Visiting the list of rooms" do
 	it "shows the rooms" do
-		room1 = Room.create
-		room2 = Room.create
-		room3 = Room.create
+		room1 = Room.create(studio_number: 1)
+		room2 = Room.create(studio_number: 2)
+		room3 = Room.create(studio_number: 3)
 
 		visit rooms_url
 

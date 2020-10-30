@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "Editing a room" do
 	it "updates the rooms details and then shows the updated details" do
-		room = Room.create
+		room = Room.create(studio_number: 1)
 
 		visit room_url(room)
 		click_link "Edit Room"

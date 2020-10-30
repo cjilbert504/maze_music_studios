@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "Viewing an individual room" do
 	it "Shows the room's details" do
-		room = Room.create
+		room = Room.create(studio_number: 1)
 
 		visit room_url(room)
 

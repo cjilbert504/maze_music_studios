@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "Navigating rooms" do
 	it "Allows navigation between the index page and the show page" do
-		room = Room.create
+		room = Room.create(studio_number: 1)
 
 		visit rooms_url
 		click_link "Room #1"
@@ -11,7 +11,7 @@ RSpec.describe "Navigating rooms" do
 	end
 
 	it "Allows navigation from the show page to the index page" do
-		room = Room.create
+		room = Room.create(studio_number: 1)
 
 		visit room_url(room)
 		click_link "Back To All Rooms"
