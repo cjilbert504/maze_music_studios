@@ -10,6 +10,24 @@ require 'rails_helper'
 #     end
 #   end
 # end
-# RSpec.describe RoomsHelper, type: :helper do
-#   pending "add some examples to (or delete) #{__FILE__}"
-# end
+
+RSpec.describe RoomsHelper, type: :helper do
+	it "has a method to format a room number based on the room's id" do
+		room = Room.create
+
+		expect(room_number_format(room)).to eq("Room #1")
+		expect(room_number_format(room)).not_to eq("Room 1")
+	end
+
+	it "has a method that returns 'Occupied' if the room is occupied" do
+		room = Room.create(occupied: true)
+
+		expect(room_occupancy_status(room)).to eq("Occupied")
+	end
+
+	it "has a method that returns 'Vacant' if the room is not occupied" do
+		room = Room.create
+
+		expect(room_occupancy_status(room)).to eq("Vacant")
+	end
+end
