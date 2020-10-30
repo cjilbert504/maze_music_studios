@@ -2,5 +2,5 @@
 
 <% @rooms.each do |room| %>
 	<h3><%= link_to(room_number_format(room), room_path(room)) %></h3>
-	<div>Status: <%= room.availability_status.capitalize %></div>
+	<div>Status: <%= room.availability_status %></div>
 <% end %>

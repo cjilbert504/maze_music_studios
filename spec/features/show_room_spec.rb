@@ -7,7 +7,7 @@ RSpec.describe "Viewing an individual room" do
 		visit room_url(room)
 
 		expect(page).to have_text("Room #1")
-		expect(page).to have_text("Vacant")
-		expect(page).to have_text("Available")
+		expect(page).to have_text("vacant")
+		expect(page).to have_text("available")
 	end
 end

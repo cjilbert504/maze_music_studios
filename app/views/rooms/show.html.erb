@@ -2,13 +2,13 @@
 
 <p>
 	<h3>
-		Occupancy Status: <%= room_occupancy_status(@room) %>
+		Occupancy Status: <%= @room.occupancy_status %>
 	</h3>
 </p>
 
 <p>
 	<h3>
-		Availability Status: <%= @room.availability_status.capitalize %>
+		Availability Status: <%= @room.availability_status %>
 	</h3>
 </p>
 
