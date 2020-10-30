@@ -12,10 +12,12 @@ require 'rails_helper'
 # end
 
 RSpec.describe RoomsHelper, type: :helper do
-	it "has a method to format a room number" do
-		room = Room.create(studio_number: 1)
-
-		expect(room_number_format(room)).to eq("Room #1")
-		expect(room_number_format(room)).not_to eq("Room 1")
+	describe "room_number_format helper" do
+		it "formats a room number properly" do
+			room = Room.create(studio_number: 1)
+	
+			expect(room_number_format(room)).to eq("Room #1")
+			expect(room_number_format(room)).not_to eq("Room 1")
+		end
 	end
 end
