@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20201029034315) do
+ActiveRecord::Schema.define(version: 20201030155649) do
 
   create_table "rooms", force: :cascade do |t|
     t.integer "occupancy_status", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "availability_status", default: 0
+    t.integer "studio_number"
   end
 
 end

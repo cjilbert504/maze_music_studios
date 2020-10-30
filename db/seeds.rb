@@ -1,24 +1,3 @@
-room1 = Room.create!
-room2 = Room.create!
-room3 = Room.create!
-room4 = Room.create!
-room5 = Room.create!
-room6 = Room.create!
-room7 = Room.create!
-room8 = Room.create!
-room9 = Room.create!
-room10 = Room.create!
-room11 = Room.create!
-room12 = Room.create!
-room13 = Room.create!
-room14 = Room.create!
-room15 = Room.create!
-room16 = Room.create!
-room17 = Room.create!
-room18 = Room.create!
-room19 = Room.create!
-room20 = Room.create!
-room21 = Room.create!
-room22 = Room.create!
-room23 = Room.create!
-room24 = Room.create!
+1.upto(24) do |n|
+	Room.create(studio_number: n)
+end
