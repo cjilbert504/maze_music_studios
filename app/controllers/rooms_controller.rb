@@ -1,7 +1,7 @@
 class RoomsController < ApplicationController
 
-	before_action :set_room, only: [:show, :edit, :update]
-	
+	before_action :set_room, only: [:show, :edit, :update, :destroy]
+
 	def index
 		@rooms = Room.all
 	end
@@ -15,6 +15,11 @@ class RoomsController < ApplicationController
 	def update
 		@room.update(room_params)
 		redirect_to room_url(@room)
+	end
+
+	def destroy
+		@room.destroy
+		redirect_to rooms_url
 	end
 
 	private
