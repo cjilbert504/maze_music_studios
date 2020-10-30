@@ -1,24 +1,20 @@
-# README
+# Maze Music Studios Management System
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The Maze is a music rehearsal facility in New Orleans, LA. It exists to provide a safe and welcoming environment to nurture the and grow the local music scene in New Orleans and surrounding areas. The facility consistes of twenty four rehearsal rooms of various sizes and monthly rental fees. 
 
-Things you may want to cover:
+### About this project
+#### Maze Music Studios is a facility and tenant management system which:
+- provides admins with a portal for tracking monthly rehearsal room payments
+- allows admins to generate reports on tenant history (payments, current tenants, waiting list, etc.)
+- allows tenants and admins to request repair/service tickets per needs of tenant rooms and facility as a whole
+- allows tenants to make monthly payments via the tenant portal
+- notifies tenants when payments are late
 
-* Ruby version
+### Running the app
+- Use `git@github.com:cjilbert504/maze_music_studios.git` to clone the repo to your local machine.
+- `cd maze_music_studios/`
+- Run `bundle install`  to install all the Ruby dependencies.
+- Run `bin/rails db:setup`
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Running the test suite
+- The test suite can be run using the `bundle exec rspec` command
