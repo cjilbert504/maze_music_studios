@@ -1,9 +1,17 @@
 <h1>Editing: <%= room_number_format(@room) %></h1>
 
 <%= form_for @room do |f| %>
-	<%= f.label :occupancy_status %>
-	<%= f.select :occupancy_status, Room::OCCUPANCY_OPTIONS, prompt: "Pick one" %>
+	<p>
+		<%= f.label :occupancy_status %><br/>
+		<%= f.select :occupancy_status, Room::OCCUPANCY_OPTIONS, prompt: "Pick one" %>
+	</p>
 
-	<%= f.label :availability_status %>
-	<%= f.select :availability_status, Room::AVAILABILITY_OPTIONS, prompt: "Pick one" %>
+	<p>
+		<%= f.label :availability_status %><br/>
+		<%= f.select :availability_status, Room::AVAILABILITY_OPTIONS, prompt: "Pick one" %>
+	</p>
+
+	<p>
+		<%= f.submit %>
+	</p>
 <% end %>

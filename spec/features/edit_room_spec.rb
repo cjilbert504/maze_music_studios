@@ -15,7 +15,7 @@ RSpec.describe "Editing a room" do
 		select "occupied", :from => "room_occupancy_status"
 		select "unavailable", :from => "room_availability_status"
 
-		click_button "Update room"
+		click_button "Update Room"
 
 		expect(current_path).to eq(room_path(room))
 		expect(page).to have_text("occupied")
