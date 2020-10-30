@@ -1,18 +1,17 @@
 class RoomsController < ApplicationController
+
+	before_action :set_room, only: [:show, :edit, :update]
 	def index
 		@rooms = Room.all
 	end
 
 	def show
-		@room = Room.find(params[:id])
 	end
 
 	def edit
-		@room = Room.find(params[:id])
 	end
 
 	def update
-		@room = Room.find(params[:id])
 		@room.update(room_params)
 		redirect_to room_url(@room)
 	end
@@ -21,5 +20,9 @@ class RoomsController < ApplicationController
 
 	def room_params
 		params.require(:room).permit(:occupancy_status, :availability_status)
+	end
+
+	def set_room
+		@room = Room.find(params[:id])
 	end
 end
