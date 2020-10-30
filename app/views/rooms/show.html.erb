@@ -1,4 +1,4 @@
-<h1>Room #<%= @room.id %></h1>
+<h1><%= room_number_format(@room) %></h1>
 
 <p>
 	<h3>
@@ -12,4 +12,5 @@
 	</h3>
 </p>
 
-<%= link_to("Back To All Rooms", rooms_path) %>
+<%= link_to("Back To All Rooms", rooms_path) %> |
+<%= link_to("Edit Room", edit_room_path(@room)) %>
