@@ -9,4 +9,13 @@ RSpec.describe "Navigating rooms" do
 
 		expect(current_path).to eq(room_path(room))
 	end
+
+	it "Allows navigation from the show page to the index page" do
+		room = Room.create
+
+		visit room_url(room)
+		click_link "Back To All Rooms"
+
+		expect(current_path).to eq(rooms_path)
+	end
 end
