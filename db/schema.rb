@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 20201029034315) do
 
   create_table "rooms", force: :cascade do |t|
-    t.boolean "occupied", default: false
+    t.integer "occupancy_status", default: 0
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.integer "status", default: 0

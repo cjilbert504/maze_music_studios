@@ -9,5 +9,7 @@ RSpec.describe "Editing a room" do
 
 		expect(current_path).to eq(edit_room_path(room))
 		expect(page).to have_text("Editing: Room #1")
+
+		
 	end
 end

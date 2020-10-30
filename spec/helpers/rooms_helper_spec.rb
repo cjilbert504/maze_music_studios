@@ -20,7 +20,7 @@ RSpec.describe RoomsHelper, type: :helper do
 	end
 
 	it "has a method that returns 'Occupied' if the room is occupied" do
-		room = Room.create(occupied: true)
+		room = Room.create(occupancy_status: :occupied)
 
 		expect(room_occupancy_status(room)).to eq("Occupied")
 	end
