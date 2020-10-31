@@ -25,7 +25,7 @@ class RoomsController < ApplicationController
 	private
 
 	def room_params
-		params.require(:room).permit(:occupancy_status, :availability_status)
+		params.require(:room).permit(:studio_number, :occupancy_status, :availability_status)
 	end
 
 	def set_room
