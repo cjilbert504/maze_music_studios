@@ -2,6 +2,11 @@
 
 <%= form_for @room do |f| %>
 	<p>
+		<%= f.label :studio_number %><br/>
+		<%= f.select :studio_number, 1..30, prompt: "Pick one" %>
+	</p>
+
+	<p>
 		<%= f.label :occupancy_status %><br/>
 		<%= f.select :occupancy_status, Room::OCCUPANCY_OPTIONS, prompt: "Pick one" %>
 	</p>
