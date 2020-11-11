@@ -1,4 +1,6 @@
+# frozen_string_literal: true
+
 Rails.application.routes.draw do
-  root "rooms#index"
+  root 'rooms#index'
   resources :rooms
 end

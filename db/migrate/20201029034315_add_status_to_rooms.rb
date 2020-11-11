@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AddStatusToRooms < ActiveRecord::Migration[5.1]
   def change
     add_column :rooms, :availability_status, :integer, default: 0

@@ -1,19 +1,21 @@
-require "rails_helper"
+# frozen_string_literal: true
 
-RSpec.describe "Visiting the list of rooms" do
-	it "shows the rooms" do
-		room1 = Room.create(studio_number: 1)
-		room2 = Room.create(studio_number: 2)
-		room3 = Room.create(studio_number: 3)
+require 'rails_helper'
 
-		visit rooms_url
+RSpec.describe 'Visiting the list of rooms' do
+  it 'shows the rooms' do
+    room1 = Room.create(studio_number: 1)
+    room2 = Room.create(studio_number: 2)
+    room3 = Room.create(studio_number: 3)
 
-		expect(page).to have_text("3 Rooms at The Maze Music Studios")
-		expect(page).to have_text("Room #1")
-		expect(page).to have_text("Status: available")
-		expect(page).to have_text("Room #2")
-		expect(page).to have_text("Status: available")
-		expect(page).to have_text("Room #3")
-		expect(page).to have_text("Status: available")
-	end
+    visit rooms_url
+
+    expect(page).to have_text('3 Rooms at The Maze Music Studios')
+    expect(page).to have_text('Room #1')
+    expect(page).to have_text('Status: available')
+    expect(page).to have_text('Room #2')
+    expect(page).to have_text('Status: available')
+    expect(page).to have_text('Room #3')
+    expect(page).to have_text('Status: available')
+  end
 end
