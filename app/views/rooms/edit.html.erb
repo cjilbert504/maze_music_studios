@@ -8,12 +8,12 @@
 
 	<p>
 		<%= f.label :occupancy_status %><br/>
-		<%= f.select :occupancy_status, Room::OCCUPANCY_OPTIONS, prompt: "Pick one" %>
+		<%= f.select :occupancy_status, Room.occupancy_statuses.keys.to_a, prompt: "Pick one" %>
 	</p>
 
 	<p>
 		<%= f.label :availability_status %><br/>
-		<%= f.select :availability_status, Room::AVAILABILITY_OPTIONS, prompt: "Pick one" %>
+		<%= f.select :availability_status, Room.availability_statuses.keys.to_a, prompt: "Pick one" %>
 	</p>
 
 	<p>
