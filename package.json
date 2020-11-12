@@ -1,5 +1,8 @@
 {
   "name": "maze_music_studios",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "n": "^6.7.0",
+    "stable": "^0.1.8"
+  }
 }

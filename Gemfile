@@ -7,8 +7,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'bootstrap', '~> 5.0.0.alpha2'
 gem 'coffee-rails', '~> 4.2'
 gem 'jbuilder', '~> 2.5'
+gem 'jquery-rails'
 gem 'puma', '~> 3.7'
 gem 'rails', '~> 5.1.7'
 gem 'rubocop', '~> 1.2', require: false
