@@ -10,12 +10,9 @@ RSpec.describe 'Visiting the list of rooms' do
 
     visit rooms_url
 
-    expect(page).to have_text('3 Rooms at The Maze Music Studios')
+    expect(page).to have_text('Welcome To The Maze Music Studios')
     expect(page).to have_text('Room #1')
-    expect(page).to have_text('Status: available')
     expect(page).to have_text('Room #2')
-    expect(page).to have_text('Status: available')
     expect(page).to have_text('Room #3')
-    expect(page).to have_text('Status: available')
   end
 end

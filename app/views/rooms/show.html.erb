@@ -1,5 +1,5 @@
-<div class="container">
-	<div class="card text-center">
+<div class="container"  style="width: 60rem;">
+	<div class="card text-center mt-5 shadow">
   	<div class="card-header">
 			Maze Music Studios
 		</div>
@@ -15,9 +15,9 @@
 				<strong>Availability Status:</strong> <%= @room.availability_status %>
 			</p>
 
-			<%= link_to("Back To All Rooms", rooms_path, class: "btn btn-primary") %>
-			<%= link_to("Edit Room", edit_room_path(@room), class: "btn btn-secondary") %>
-			<%= link_to("Delete Room", room_path(@room), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-danger") %>
+			<%= link_to("Back To All Rooms", rooms_path, class: "btn btn-primary shadow") %>
+			<%= link_to("Edit Room", edit_room_path(@room), class: "btn btn-secondary shadow") %>
+			<%= link_to("Delete Room", room_path(@room), method: :delete, data: { confirm: "Are you sure?" }, class: "btn btn-danger shadow") %>
 		</div>
 	</div>
 </div>
