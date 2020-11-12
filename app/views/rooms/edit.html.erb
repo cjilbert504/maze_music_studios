@@ -1,24 +1,35 @@
-<h1>Editing: <%= room_number_format(@room) %></h1>
+<div class="container" style="width: 60rem;">
+	<div class="card text-center mt-5 shadow">
+		<h1>Editing: <%= room_number_format(@room) %></h1>
 
-<%= form_for @room do |f| %>
-	<p>
-		<%= f.label :studio_number %><br/>
-		<%= f.select :studio_number, 1..30, prompt: "Pick one" %>
-	</p>
+		<div class="card-body">
+			<%= form_for @room do |f| %>
+				<div class="form-group text-left">
+					<strong><%= f.label :studio_number  %></strong>
+					<%= f.select :studio_number, 1..24, {}, {:class => "form-control form-control-lg"} %>
+				</div>
 
-	<p>
-		<%= f.label :occupancy_status %><br/>
-		<%= f.select :occupancy_status, Room.occupancy_statuses.keys.to_a, prompt: "Pick one" %>
-	</p>
+				<br>
 
-	<p>
-		<%= f.label :availability_status %><br/>
-		<%= f.select :availability_status, Room.availability_statuses.keys.to_a, prompt: "Pick one" %>
-	</p>
+				<div class="form-group text-left">
+					<strong><%= f.label :occupancy_status %></strong><br/>
+					<%= f.select :occupancy_status, Room.occupancy_statuses.keys.to_a, {}, {:class => "form-control form-control-lg"} %>
+				</div>
 
-	<p>
-		<%= f.submit %>
-	</p>
-<% end %>
+				<br>
 
-<%= link_to("Cancel Editing", room_path(@room)) %>
+				<div class="form-group text-left">
+					<strong><%= f.label :availability_status %></strong><br/>
+					<%= f.select :availability_status, Room.availability_statuses.keys.to_a, {}, {:class => "form-control form-control-lg"} %>
+				</div>
+
+				<br>
+
+				<div>
+					<%= f.submit class: "btn btn-primary" %> <%= link_to("Cancel Editing", room_path(@room), class: "btn btn-danger") %>
+				</div>
+		
+			<% end %>
+		</div>
+	</div>
+</div>
