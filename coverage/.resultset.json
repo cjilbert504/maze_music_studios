@@ -1,0 +1,573 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/controllers/rooms_controller_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/rails_helper.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/environment.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/application.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/boot.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/environments/test.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/application_controller_renderer.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/assets.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/backtrace_silencers.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/cookies_serializer.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/filter_parameter_logging.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/inflections.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/mime_types.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/initializers/wrap_parameters.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/config/routes.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/helpers/application_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/helpers/rooms_helper.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          16,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/create_room_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/delete_room_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/edit_room_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/list_rooms_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/navigate_room_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/show_room_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/helpers/rooms_helper_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/models/room_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/models/room.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/models/application_record.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/controllers/rooms_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          11,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1605238237
+  }
+}

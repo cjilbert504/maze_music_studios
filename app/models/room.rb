@@ -2,5 +2,5 @@
 
 class Room < ApplicationRecord
   enum occupancy_status: %i[vacant occupied]
-  enum availability_status: ["available", "unavailable", "available soon"]
+  enum availability_status: ['available', 'unavailable', 'available soon']
 end
