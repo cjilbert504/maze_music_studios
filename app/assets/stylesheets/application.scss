@@ -12,3 +12,18 @@
  *
  */
  @import "bootstrap";
+
+ #user-signup {
+	width: 18rem;
+	display: block;
+	margin: auto;
+	text-align: center;
+ }
+
+ .card-body {
+	box-shadow: 3px;
+ }
+
+ #user-signup input {
+	 margin-bottom: 15px;
+ }
