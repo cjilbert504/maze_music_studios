@@ -13,6 +13,11 @@
  */
  @import "bootstrap";
 
+ * {
+	 margin: 0;
+	 padding: 0;
+ }
+
  #user-signup {
 	width: 18rem;
 	display: block;
@@ -26,4 +31,24 @@
 
  #user-signup input {
 	 margin-bottom: 15px;
+ }
+
+ #home-image {
+	 display: block;
+	 margin: auto;
+ }
+
+ #home-heading {
+	 text-align: center;
+	 margin-top: 20px;
+ }
+
+ #address-footer {
+	 text-align: center;
+	 margin-top: 10px;
+ }
+
+ #address-footer li {
+	 list-style: none;
+	 padding: 20px;
  }

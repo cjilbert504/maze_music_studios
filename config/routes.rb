@@ -2,6 +2,6 @@
 
 Rails.application.routes.draw do
   devise_for :users
-  root 'rooms#index'
+  root 'static#home'
   resources :rooms
 end

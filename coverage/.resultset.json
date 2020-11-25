@@ -660,7 +660,40 @@
           null
         ]
       },
-      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/create_room_spec.rb": {
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/helpers/static_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/controllers/static_controller_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/controllers/static_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/controllers/application_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/room-features/create_room_spec.rb": {
         "lines": [
           null,
           null,
@@ -671,7 +704,7 @@
           null
         ]
       },
-      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/delete_room_spec.rb": {
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/room-features/delete_room_spec.rb": {
         "lines": [
           null,
           null,
@@ -690,7 +723,7 @@
           null
         ]
       },
-      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/edit_room_spec.rb": {
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/room-features/edit_room_spec.rb": {
         "lines": [
           null,
           null,
@@ -724,7 +757,7 @@
           null
         ]
       },
-      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/list_rooms_spec.rb": {
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/room-features/list_rooms_spec.rb": {
         "lines": [
           null,
           null,
@@ -746,7 +779,7 @@
           null
         ]
       },
-      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/navigate_room_spec.rb": {
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/room-features/navigate_room_spec.rb": {
         "lines": [
           null,
           null,
@@ -781,7 +814,7 @@
           null
         ]
       },
-      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/show_room_spec.rb": {
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/room-features/show_room_spec.rb": {
         "lines": [
           null,
           null,
@@ -794,6 +827,20 @@
           1,
           null,
           1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/features/static_pages/home_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           null,
@@ -826,6 +873,25 @@
           1,
           null,
           null,
+          null
+        ]
+      },
+      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/spec/helpers/static_helper_spec.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
           null
         ]
       },
@@ -891,17 +957,8 @@
           null,
           null
         ]
-      },
-      "/Users/collinjilbert/Desktop/code/rails/maze_music_studios/app/controllers/application_controller.rb": {
-        "lines": [
-          null,
-          null,
-          1,
-          1,
-          null
-        ]
       }
     },
-    "timestamp": 1605731676
+    "timestamp": 1606280263
   }
 }
