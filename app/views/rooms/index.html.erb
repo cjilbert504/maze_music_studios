@@ -1,9 +1,19 @@
 <div class="container text-center mt-4 mb-4" style="width: 60rem;">
-
-	<div class="list-group shadow">
-		<li class="list-group-item active"><strong>Welcome To The Maze Music Studios</strong></li>
-		<% @rooms.each do |room| %>
-			<%= link_to(content_tag(:strong, room_number_format(room)), room_path(room), class: "list-group-item list-group-item-action") %>
-		<% end %>
-	</div>
+	<h1 class="list-group-item active">Rehearsal Room List</h1>
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Room Number</th>
+				<th>Tenant Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @rooms.each do |room| %>
+				<tr>
+					<td><%= room_number_format(room) %></td>
+					<td>N/A</td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
 </div>
