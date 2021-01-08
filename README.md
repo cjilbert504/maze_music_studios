@@ -1,4 +1,4 @@
-# Maze Music Studios Management System
+# Maze Music Studios Management System (This project is being re-written)
 
 The Maze is a music rehearsal facility in New Orleans, LA. It exists to provide a safe and welcoming environment to nurture the and grow the local music scene in New Orleans and surrounding areas. The facility consistes of twenty four rehearsal rooms of various sizes and monthly rental fees. 
 
